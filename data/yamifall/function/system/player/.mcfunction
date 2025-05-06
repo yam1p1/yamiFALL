@@ -1,0 +1,2 @@
+##solo actionbar
+execute if score team flag matches 1 run title @s actionbar [{"color":"aqua","text":"残り人数"},{"color":"white","text":" : "},{"score":{"name":"players","objective":"flag"}},"人",{"color":"white","text":"  |  "},{"color":"red","text":"ボーダー収縮完了まで"},{"color":"white","text":" : "},{"color":"red","score":{"name":"border_time","objective":"flag"}},{"color":"red","text":"秒"}]
