@@ -14,9 +14,9 @@ item replace entity @s armor.feet with netherite_boots[enchantments={levels:{"mi
 give @s iron_sword[enchantments={levels:{"minecraft:sharpness":1,"minecraft:unbreaking":3}}] 1
 
 ##Tools
-give @s netherite_pickaxe[enchantments={levels:{"minecraft:efficiency":5,"minecraft:unbreaking":3}}] 1
-give @s iron_axe[enchantments={levels:{"minecraft:efficiency":5,"minecraft:unbreaking":3}}] 1
-give @s iron_shovel[enchantments={levels:{"minecraft:efficiency":5,"minecraft:unbreaking":3}}] 1
+give @s netherite_pickaxe[enchantments={levels:{"minecraft:efficiency":5,"minecraft:unbreaking":3}},lore=['{"color":"white","italic":false,"text":"[Tool Only]"}'],attribute_modifiers={modifiers:[{id:"attack_speed",type:"attack_speed",amount:0,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
+give @s iron_axe[enchantments={levels:{"minecraft:efficiency":5,"minecraft:unbreaking":3}},lore=['{"color":"white","italic":false,"text":"[Tool Only]"}'],attribute_modifiers={modifiers:[{id:"attack_speed",type:"attack_speed",amount:0,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
+give @s iron_shovel[enchantments={levels:{"minecraft:efficiency":5,"minecraft:unbreaking":3}},lore=['{"color":"white","italic":false,"text":"[Tool Only]"}'],attribute_modifiers={modifiers:[{id:"attack_speed",type:"attack_speed",amount:0,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
 
 ##Food
 give @s cooked_beef 16

@@ -12,7 +12,13 @@ scoreboard players set start_border flag 500
 ##ボーダー収縮時間
 scoreboard players set border_time flag 300
 
+##ネームタグ
+scoreboard players set nametag flag 1
+
 ##Custom
 
 #UHC mode
 scoreboard players set uhc_mode flag 0
+
+#Shotbow mode
+scoreboard players set shotbow_mode flag 0

@@ -17,6 +17,7 @@ function yamifall:system/set_border with storage settings:
 ##パラシュート配布
 item replace entity @a weapon.offhand with feather[equippable={slot:"offhand"},glider={},custom_name='{"color":"yellow","italic":false,"text":"パラシュート"}',enchantment_glint_override=true] 1
 gamerule fallDamage false
+effect give @a resistance 30 255 true
 schedule function yamifall:system/player/clear_elytra 30s
 
 ##チームモードによって変更
@@ -33,6 +34,8 @@ execute if score uhc_mode flag matches 1 run function yamifall:system/uhc_mode
 ##全員にplayer tag
 tag @a add player
 
+#world reset
+kill @e[type=item]
 
 
 ##change flags

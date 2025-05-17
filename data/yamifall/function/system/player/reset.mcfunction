@@ -14,3 +14,4 @@ effect give @s saturation 1 127 true
 effect give @s hunger 2 255 true
 
 tag @s remove player
+team leave @s

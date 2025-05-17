@@ -11,15 +11,15 @@ item replace entity @s armor.legs with golden_leggings[enchantments={levels:{"mi
 item replace entity @s armor.feet with golden_boots[enchantments={levels:{"minecraft:projectile_protection":2,"minecraft:feather_falling":10,"minecraft:unbreaking":10}}] 1
 
 ##Main Weapon
-give @s mace[enchantments={levels:{"minecraft:wind_burst":1,"minecraft:unbreaking":3}}] 1
+give @s wooden_sword[enchantments={levels:{"minecraft:knockback":3,"minecraft:sharpness":4,"minecraft:unbreaking":10}}] 1
 
 ##Tools
-give @s iron_pickaxe[enchantments={levels:{"minecraft:efficiency":1,"minecraft:unbreaking":3}}] 1
-give @s iron_axe[enchantments={levels:{"minecraft:efficiency":1,"minecraft:unbreaking":3}}] 1
-give @s iron_shovel[enchantments={levels:{"minecraft:efficiency":1,"minecraft:unbreaking":3}}] 1
+give @s iron_pickaxe[enchantments={levels:{"minecraft:efficiency":1,"minecraft:unbreaking":3}},lore=['{"color":"white","italic":false,"text":"[Tool Only]"}'],attribute_modifiers={modifiers:[{id:"attack_speed",type:"attack_speed",amount:0,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
+give @s iron_axe[enchantments={levels:{"minecraft:efficiency":1,"minecraft:unbreaking":3}},lore=['{"color":"white","italic":false,"text":"[Tool Only]"}'],attribute_modifiers={modifiers:[{id:"attack_speed",type:"attack_speed",amount:0,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
+give @s iron_shovel[enchantments={levels:{"minecraft:efficiency":1,"minecraft:unbreaking":3}},lore=['{"color":"white","italic":false,"text":"[Tool Only]"}'],attribute_modifiers={modifiers:[{id:"attack_speed",type:"attack_speed",amount:0,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}] 1
 
 ##Other Weapon
-give @s wind_charge 16
+give @s wind_charge 64
 
 ##Food
 give @s cooked_beef 16

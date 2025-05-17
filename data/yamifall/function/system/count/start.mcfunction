@@ -18,6 +18,7 @@ tellraw @a [{"color":"yellow","text":"                        開始時ボーダ
 
 ##Custom Mode
 execute if score uhc_mode flag matches 1 run tellraw @a {"color":"red","text":"                             ★ UHCモード ★"}
+execute if score shotbow_mode flag matches 1 run tellraw @a {"color":"red","text":"                           ★ Shotbowモード ★"}
 
 
 
@@ -30,4 +31,5 @@ schedule function yamifall:system/count/ 3s
 ##中心
 kill @e[type=marker,tag=center]
 summon marker ~ ~ ~ {Tags:["center"],CustomName:'""'}
+tp @a @e[type=marker,tag=center,limit=1]
 worldborder center ~ ~

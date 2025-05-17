@@ -1,4 +1,4 @@
-execute store result score @s kit run random value 1..11
+execute store result score @s kit run random value 1..15
 
 execute if score @s kit matches 1 run function yamifall:kit/master
 execute if score @s kit matches 2 run function yamifall:kit/archer
@@ -11,3 +11,7 @@ execute if score @s kit matches 8 run function yamifall:kit/flame
 execute if score @s kit matches 9 run function yamifall:kit/skyfeather
 execute if score @s kit matches 10 run function yamifall:kit/necromancer
 execute if score @s kit matches 11 run function yamifall:kit/bomber
+execute if score @s kit matches 12 run function yamifall:kit/assasin
+execute if score @s kit matches 13 run function yamifall:kit/reflect
+execute if score @s kit matches 14 run function yamifall:kit/doctor
+execute if score @s kit matches 15 run function yamifall:kit/spider
